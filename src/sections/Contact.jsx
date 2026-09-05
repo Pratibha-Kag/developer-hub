@@ -17,12 +17,12 @@ const contactInfo = [
     value: "partibhaarya11@gmail.com",
     href: "mailto:partibhaarya11@gmail.com",
   },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "7828415612",
-    href: "tel:+15551234567",
-  },
+  // {
+  //   icon: Phone,
+  //   label: "Phone",
+  //   value: "7828415612",
+  //   href: "tel:+15551234567",
+  // },
   {
     icon: MapPin,
     label: "Location",
