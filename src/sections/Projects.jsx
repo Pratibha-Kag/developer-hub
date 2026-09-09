@@ -18,6 +18,15 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "https://www.altradar.com/",
+    // github: "#",
+  },
+  {
+    title: "Ametnes Cloud ",
+    description:
+      "Enterprise platform for securely deploying and managing open-source applications across private cloud and on-premise environments",
+    image: "/projects/project2.png",
+    tags: ["React.js ", "JavaScript", "Tailwind CSS", "REST APIs"],
+    link: "https://cloud.ametnes.com/",
     github: "#",
   },
 ];

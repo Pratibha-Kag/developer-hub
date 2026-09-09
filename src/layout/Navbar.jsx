@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/Button";
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -52,8 +53,11 @@ export const Navbar = () => {
         </div>
 
         {/* CTA Button */}
+
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Link to="/contact">
+            <Button size="sm">Contact Me</Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}

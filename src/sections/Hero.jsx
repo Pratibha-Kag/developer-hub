@@ -101,7 +101,7 @@ export const Hero = () => {
 
               {[
                 { href: "https://github.com/Pratibha-Kag?tab=repositories" },
-                { href: "https://www.linkedin.com/" },
+                { href: "https://www.linkedin.com/in/pratibha-kag-2b98222b9" },
                 { href: "https://www.instagram.com/" },
               ].map((social, idx) => (
                 <SocialIcon
@@ -131,7 +131,7 @@ export const Hero = () => {
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/projects/profile-photo.png"
-                  alt="Pedro Machado"
+                  alt="Pratibha"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
